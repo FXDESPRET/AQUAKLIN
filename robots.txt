@@ -1,0 +1,41 @@
+# === aquiklin.be — accès explicite aux robots des moteurs IA ===
+# À placer à la racine du projet (même dossier que index.html)
+
+User-agent: *
+Allow: /
+
+# Google — inclusion dans les AI Overviews / AI Mode
+User-agent: Google-Extended
+Allow: /
+
+# ChatGPT / OpenAI
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# Claude / Anthropic
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Autres indexeurs IA courants
+User-agent: CCBot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://www.aquiklin.be/sitemap.xml
