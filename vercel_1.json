@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/demo", "destination": "https://aquiklin-observatoire.vercel.app/?demo" },
+    { "source": "/demo/:slug", "destination": "https://aquiklin-observatoire.vercel.app/?demo=:slug" }
+  ]
+}
